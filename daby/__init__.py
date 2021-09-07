@@ -3,7 +3,7 @@ from .exceptions import PoolConnectionError
 from .factory import Factory
 from .pool import Pool
 from .pool import PoolAcquireContext
-from .adapters.asyncpg import AsyncpgFactory
+from .adapters.asyncpg.factory import AsyncpgFactory
 
 __all__ = [
     'Connection',
