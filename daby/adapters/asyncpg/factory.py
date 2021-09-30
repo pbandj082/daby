@@ -1,7 +1,9 @@
 from .pool import create_asyncpg_pool
 from ...pool import Pool
+from ...factory import Factory
 
 
+@Factory.register
 class AsyncpgFactory():
     async def create_pool(
         self,

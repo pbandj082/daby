@@ -7,7 +7,7 @@ def _get_requires():
 
 setup(
     name='daby',
-    version='0.0.2',
+    version='0.0.3',
     url='https://github.com/pbandj082/daby',
     packages=['daby', 'daby.adapters', 'daby.adapters.asyncpg'],
     requires=_get_requires(),
